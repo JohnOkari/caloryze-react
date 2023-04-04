@@ -1,0 +1,34 @@
+{
+  "meals": [
+    {
+      "food": "chai",
+      "meal_type": "lunch",
+      "calories": 500,
+      "id": 14
+    },
+    {
+      "food": "meat",
+      "meal_type": "dinner",
+      "calories": 233,
+      "id": 15
+    },
+    {
+      "food": "Pork",
+      "meal_type": "lunch",
+      "calories": 100,
+      "id": 16
+    },
+    {
+      "food": "Rice",
+      "meal_type": "lunch",
+      "calories": 200,
+      "id": 17
+    },
+    {
+      "food": "qqq",
+      "meal_type": "breakfast",
+      "calories": 1222,
+      "id": 18
+    }
+  ]
+}

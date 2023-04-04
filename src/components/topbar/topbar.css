@@ -1,0 +1,63 @@
+.top {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: "Josefin Sans", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    justify-content: space-between;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  /* Style for the social media icons */
+  .topIcon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .topIcon:hover {
+    color: #0077b5; /* change to the brand color of LinkedIn */
+  }
+  
+  /* Style for the top list */
+  .topRight {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topListItem {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .topListItem:hover {
+    color: #0077b5; /* change to the brand color of LinkedIn */
+  }
+  
+  /* Style for the profile picture */
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+  }
